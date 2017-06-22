@@ -40,6 +40,11 @@ bower install --save fullcalendar-calendar
     --fullcalendar-today: {
         background: black;
     }
+
+    --fullcalendar-event: {
+        background-color: magenta;
+        border-color: magenta;
+    }
   }
 </style>
 

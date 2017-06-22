@@ -40,6 +40,7 @@ Custom property | Description | Default
 `--fullcalendar-day-numbers` | Mixin applied to the FullCalendar day number elements | `{}`
 `--fullcalendar-day-headers` | Mixin applied to the FullCalendar day header elements | `{}`
 `--fullcalendar-today` | Mixin applied to the FullCalendar today element | `{}`
+`--fullcalendar-event` | Mixin applied to the FullCalendar event element | `{}`
 
 @demo demo/index.html
 @hero hero.svg
@@ -76,6 +77,10 @@ Custom property | Description | Default
 
       #calendar .fc-today {
         @apply(--fullcalendar-today);
+      }
+
+      #calendar .fc-event {
+        @apply(--fullcalendar-event);
       }
     </style>
 
